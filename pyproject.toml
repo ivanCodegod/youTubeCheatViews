@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtubecheatviews"
+version = "0.1.0"
+description = ""
+authors = ["ivanbozhko <Ivan_Bozhko@epam.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.10.0"
+keyboard = "^0.13.5"
+faker = "^19.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
